@@ -49,7 +49,7 @@ class Looping1 {
 			}
 
 		}
-		while(balance % spendAnnually > 0);
+		while(balance > spendAnnually);
 		System.out.println("You got "+(remainingYear-1)+" years of saving.");
 
 	}
